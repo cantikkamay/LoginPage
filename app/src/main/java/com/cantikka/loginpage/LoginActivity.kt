@@ -20,7 +20,7 @@ class LoginActivity : AppCompatActivity() {
 
         if (email.isNotEmpty()) {
             val username = email.substringBefore("@gmail.com")
-            textView.text = "Halo $username"
+            textView.text = "Halo ! Selamat Datang $username"
             Log.d("Activity", "User berhasil masuk dengan email: $email")
         } else {
             textView.text = "Halo Pengguna"
